@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yrjyrj123.github.io</id>
+    <title>李明阳讲区块链</title>
+    <updated>2021-11-18T12:11:07.966Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yrjyrj123.github.io"/>
+    <link rel="self" href="https://yrjyrj123.github.io/atom.xml"/>
+    <subtitle>实用的币圈和矿圈知识</subtitle>
+    <logo>https://yrjyrj123.github.io/images/avatar.png</logo>
+    <icon>https://yrjyrj123.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, 李明阳讲区块链</rights>
+    <entry>
+        <title type="html"><![CDATA[mkk]]></title>
+        <id>https://yrjyrj123.github.io/post/mkk/</id>
+        <link href="https://yrjyrj123.github.io/post/mkk/">
+        </link>
+        <updated>2021-11-16T18:53:30.000Z</updated>
+        <content type="html"><![CDATA[<p>kkk</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CPU也能挖矿：Raptoreum(RTM)挖矿教程]]></title>
+        <id>https://yrjyrj123.github.io/post/cpu-ye-neng-wa-kuang-raptoreumrtmwa-kuang-jiao-cheng/</id>
+        <link href="https://yrjyrj123.github.io/post/cpu-ye-neng-wa-kuang-raptoreumrtmwa-kuang-jiao-cheng/">
+        </link>
+        <updated>2021-11-16T09:22:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>2021年2月26日，Raptoreum主网正式上线。<br>
+2021年11月7日开始，短短一周时间，RTM的价格暴涨7倍，这使得Raptoreum挖矿变得有利可图。<br>
+由于算法的特点，Raptoreum更适合使用CPU挖掘，近期高涨的币价和早期较低的挖矿难度，使得Raptoreum很快取代传统CPU币种门罗币(XMR)，成为CPU挖矿领域收益最高的币种。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>2021年2月26日，Raptoreum主网正式上线。<br>
+2021年11月7日开始，短短一周时间，RTM的价格暴涨7倍，这使得Raptoreum挖矿变得有利可图。<br>
+由于算法的特点，Raptoreum更适合使用CPU挖掘，近期高涨的币价和早期较低的挖矿难度，使得Raptoreum很快取代传统CPU币种门罗币(XMR)，成为CPU挖矿领域收益最高的币种。</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://yrjyrj123.github.io/post-images/1637086979326.png" alt="" loading="lazy"></figure>
+<hr>
+<h2 id="什么是raptoreum">什么是Raptoreum</h2>
+<p>Raptoreum是在Dash(达世币)的代码基础上发展而来的，它是完全独立的一条新链，而不是Dash的分叉，类似于比特币和莱特币的关系。<br>
+项目官方给它的定义是“一个安全的加密货币与资产平台”。<br>
+相比于Dash，Raptoreum最吸引人的莫过于将提供可执行智能合约的虚拟机，并支持4种智能合约语言。<br>
+Raptoreum使用了全新的PoW算法GhostRider，设计上倾向于CPU挖矿，并强化了ASIC抵抗能力。</p>
+<p>让我们来看看与挖矿相关的一些关键参数：<br>
+PoW算法：GhostRider<br>
+区块时间：2分钟<br>
+通证名称：RTM<br>
+当前矿工区块奖励：3,750 RTM<br>
+总量：21,000,000,000 RTM</p>
+<hr>
+<p>下面，就让我们一起来了解下如何挖掘Raptoreum吧。</p>
+<h2 id="钱包软件">钱包软件</h2>
+<p>首先，去Raptoreum的官网下载钱包软件。<br>
+▼鼠标移到红框里的Downloads上，就会看到下级菜单。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637055620338.png" alt="" loading="lazy"><br>
+▼点击红框里的Wallet，就会跳转到钱包下载页面。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058465361.png" alt="" loading="lazy"><br>
+▼一直往下拉，就可以看到钱包软件的下载链接了，这里我们以Windows为例。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058472111.png" alt="" loading="lazy"><br>
+▼下载并解压后，可以得到四个文件，红框里的就是钱包软件本体了。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058480667.png" alt="" loading="lazy"></p>
+<hr>
+<h2 id="生成钱包地址">生成钱包地址</h2>
+<p>▼打开钱包软件，第一次启动需要选择数据目录，这个目录中将要保存同步得到的区块数据，未来会比较大，建议选择空间充足的盘符，然后点“OK”。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058502071.png" alt="" loading="lazy"><br>
+▼钱包软件需要一点儿时间来同步区块数据，生成钱包地址并不需要完成同步，因此我们点击“隐藏”，让同步过程在后台进行，就可以进入主界面了。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058575899.png" alt="" loading="lazy"><br>
+▼点击主界面上的“接收”。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058723447.png" alt="" loading="lazy"><br>
+▼点击“请求付款”。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058728485.png" alt="" loading="lazy"><br>
+▼弹出的界面中，红框里的就是你的钱包地址了，你将用这个地址接收挖矿收益。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058734218.png" alt="" loading="lazy"><br>
+<br/></p>
+<hr>
+<h2 id="挖矿工具">挖矿工具</h2>
+<p>▼进入cpuminer-gr官方下载页面，这里还是以Windows为例。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058749536.png" alt="" loading="lazy"><br>
+▼你很可能会看到类似的提示。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058754444.png" alt="" loading="lazy"><br>
+挖矿可以带来高额收益，大量电脑遭到黑客入侵，被用于挖矿，因此很多杀毒软件和浏览器都把挖矿工具视为病毒，<br>
+你说它是病毒吧，确实很多人在不知情的情况下“被挖矿”，属于恶意行为。<br>
+如果你的目的就是挖矿，那它显然是一个正常的软件。<br>
+对此类提示有洁癖的朋友，可以点击“从列表中移除”，然后就可以放弃了。<br>
+是否继续，请自行作出决定。<br>
+▼解压后，可以得到类似的文件。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058759858.png" alt="" loading="lazy"><br>
+▼在config.json上点击右键，选择“打开方式”。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058764737.png" alt="" loading="lazy"><br>
+▼使用记事本打开这个配置文件。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058769094.png" alt="" loading="lazy"><br>
+使用如下内容替换：<br>
+{ &quot;url&quot;: &quot;stratum+tcps://eu.flockpool.com:5555&quot;, &quot;user&quot;: &quot;钱包地址.矿工名&quot;, &quot;pass&quot;: &quot;xxxxxx&quot;, &quot;algo&quot;: &quot;gr&quot;, &quot;no-tune&quot;: true }<br>
+注意，要把“钱包地址”四个字换成你自己的钱包地址，“矿工名”三个字可以随便起，用来区分不同的机器，如果你有多个机器，要保证不能重名。<br>
+▼这个是我修改好的例子，供参考。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058775511.png" alt="" loading="lazy"><br>
+▼保存后，双击“cpuminer”即可开始挖矿。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058780122.png" alt="" loading="lazy"><br>
+▼如果你看到“Accepted”字样，恭喜你，成功了。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058785989.png" alt="" loading="lazy"><br>
+<br/></p>
+<hr>
+<h2 id="查看收益">查看收益</h2>
+<p>▼打开矿池，输入你的钱包地址，并回车。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058791804.png" alt="" loading="lazy"><br>
+▼然后就可以看到你的收益和实际算力啦。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058884710.png" alt="" loading="lazy"><br>
+▼矿池每隔一段时间，就会支付一次收益，当你的钱包软件完成同步后，就可以看到啦。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058894215.png" alt="" loading="lazy"><br>
+以我测试用的AMD Ryzen9 5950X CPU为例，算力大于4000H/s，本文写作时，每天能挖110个RTM，币价0.0761刀，每日收益在40元左右。（DIY玩家瑟瑟发抖中，CPU也要涨价了）</p>
+<hr>
+<h2 id="李明阳有话说">李明阳有话说</h2>
+<p>有句话叫“时势造英雄，英雄造时势”。<br>
+矿圈和币圈之间的关系，很难说是谁在决定谁，而是互相影响。<br>
+币圈的投机者拉升币价，矿工发现有利可图，大量涌入，刺激市场信心，进一步推高币价，吸引更多投机者，最终形成正反馈，直到达到平衡。<br>
+也有可能是矿工先涌入，刺激市场信心，投机者认为有利可图，推高了币价，进而吸引了更多矿工，直到达到平衡。<br>
+原本籍籍无名的小币钟，完全可以因为矿工的涌入而变得火热。<br>
+比如2021年初，以太坊DAG超过4G的时候，大量4G显卡矿工出局，这部分矿工只能退而求其次，挖掘RVN，最终造成RVN暴涨十余倍，这就是典型的矿工成就币种的例子。<br>
+矿圈是典型的赢者通吃市场，每个设备领域，一定会有收益最高的币种。<br>
+以太坊垄断了显卡，比特币、莱特币垄断了ASIC，新币种几乎没有可能挑战它们的地位，也就无法吸引这两种设备的矿工，要么选择狗狗币联合挖矿的方式，要么就只能选择不同的设备领域。<br>
+这就是越来越多新类型的设备被投入挖矿的内在逻辑，前有Chia的硬盘，后有Raptoreum的CPU，其他路都被别人走了，只能自己开一条路。</p>
+<hr>
+<h2 id="下期预告">下期预告</h2>
+<p>细心的朋友可能会发现，前面提到的配置文件中有“tune”字样，也就是调优的意思。<br>
+<img src="https://yrjyrj123.github.io/post-images/1637058907691.png" alt="" loading="lazy"><br>
+所谓调优，就是根据算法和不同型号设备的特点，对性能加以优化，从而获得更多收益。<br>
+不过，为了简化操作，我们暂时使用的配置是“no-tune”，也就是暂不调优，用默认参数运行。<br>
+我会在未来的文章中详细介绍下Raptoreum使用的GhostRider算法的原理，以及调优技巧，欢迎关注。<br>
+在参与挖矿活动前，请了解并遵守当地政策法规，避免违法违规。<br>
+关于微信咨询账号yrjyrj-hero<br>
+最近来咨询的朋友实在太多了，为了能更专注于解答大家的问题，保证咨询的质量，我请了一位助理，帮我管理这个微信账号。<br>
+她会帮我处理一些事务性的工作，比如预约咨询时间、改期、内部群订阅等等。<br>
+具体问题的解答还是我来做，感谢助理妹妹，现在我可以腾出更多的时间来帮助大家了。<br>
+另外，近期在好几个平台发现了冒充我的账号，都被我一一举报了。<br>
+我从不销售、代购、托管设备，更不会推广任何项目，请大家注意不要受骗。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://yrjyrj123.github.io/post/hello-gridea/</id>
+        <link href="https://yrjyrj123.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...<br>
+▼</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...<br>
+▼</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~<br>
+<img src="https://yrjyrj123.github.io/post-images/1636958596399.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
