@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://yrjyrj123.github.io</id>
+    <id>https://yrjyrj123.github.io/blog</id>
     <title>李明阳讲区块链</title>
-    <updated>2021-11-18T12:11:07.966Z</updated>
+    <updated>2021-11-18T12:21:32.258Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://yrjyrj123.github.io"/>
-    <link rel="self" href="https://yrjyrj123.github.io/atom.xml"/>
+    <link rel="alternate" href="https://yrjyrj123.github.io/blog"/>
+    <link rel="self" href="https://yrjyrj123.github.io/blog/atom.xml"/>
     <subtitle>实用的币圈和矿圈知识</subtitle>
-    <logo>https://yrjyrj123.github.io/images/avatar.png</logo>
-    <icon>https://yrjyrj123.github.io/favicon.ico</icon>
+    <logo>https://yrjyrj123.github.io/blog/images/avatar.png</logo>
+    <icon>https://yrjyrj123.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2021, 李明阳讲区块链</rights>
     <entry>
         <title type="html"><![CDATA[mkk]]></title>
-        <id>https://yrjyrj123.github.io/post/mkk/</id>
-        <link href="https://yrjyrj123.github.io/post/mkk/">
+        <id>https://yrjyrj123.github.io/blog/post/mkk/</id>
+        <link href="https://yrjyrj123.github.io/blog/post/mkk/">
         </link>
         <updated>2021-11-16T18:53:30.000Z</updated>
         <content type="html"><![CDATA[<p>kkk</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[CPU也能挖矿：Raptoreum(RTM)挖矿教程]]></title>
-        <id>https://yrjyrj123.github.io/post/cpu-ye-neng-wa-kuang-raptoreumrtmwa-kuang-jiao-cheng/</id>
-        <link href="https://yrjyrj123.github.io/post/cpu-ye-neng-wa-kuang-raptoreumrtmwa-kuang-jiao-cheng/">
+        <id>https://yrjyrj123.github.io/blog/post/cpu-ye-neng-wa-kuang-raptoreumrtmwa-kuang-jiao-cheng/</id>
+        <link href="https://yrjyrj123.github.io/blog/post/cpu-ye-neng-wa-kuang-raptoreumrtmwa-kuang-jiao-cheng/">
         </link>
         <updated>2021-11-16T09:22:12.000Z</updated>
         <summary type="html"><![CDATA[<p>2021年2月26日，Raptoreum主网正式上线。<br>
@@ -33,7 +33,7 @@
 2021年11月7日开始，短短一周时间，RTM的价格暴涨7倍，这使得Raptoreum挖矿变得有利可图。<br>
 由于算法的特点，Raptoreum更适合使用CPU挖掘，近期高涨的币价和早期较低的挖矿难度，使得Raptoreum很快取代传统CPU币种门罗币(XMR)，成为CPU挖矿领域收益最高的币种。</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://yrjyrj123.github.io/post-images/1637086979326.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://yrjyrj123.github.io/blog/post-images/1637086979326.png" alt="" loading="lazy"></figure>
 <hr>
 <h2 id="什么是raptoreum">什么是Raptoreum</h2>
 <p>Raptoreum是在Dash(达世币)的代码基础上发展而来的，它是完全独立的一条新链，而不是Dash的分叉，类似于比特币和莱特币的关系。<br>
@@ -51,61 +51,61 @@ PoW算法：GhostRider<br>
 <h2 id="钱包软件">钱包软件</h2>
 <p>首先，去Raptoreum的官网下载钱包软件。<br>
 ▼鼠标移到红框里的Downloads上，就会看到下级菜单。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637055620338.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637055620338.png" alt="" loading="lazy"><br>
 ▼点击红框里的Wallet，就会跳转到钱包下载页面。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058465361.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058465361.png" alt="" loading="lazy"><br>
 ▼一直往下拉，就可以看到钱包软件的下载链接了，这里我们以Windows为例。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058472111.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058472111.png" alt="" loading="lazy"><br>
 ▼下载并解压后，可以得到四个文件，红框里的就是钱包软件本体了。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058480667.png" alt="" loading="lazy"></p>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058480667.png" alt="" loading="lazy"></p>
 <hr>
 <h2 id="生成钱包地址">生成钱包地址</h2>
 <p>▼打开钱包软件，第一次启动需要选择数据目录，这个目录中将要保存同步得到的区块数据，未来会比较大，建议选择空间充足的盘符，然后点“OK”。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058502071.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058502071.png" alt="" loading="lazy"><br>
 ▼钱包软件需要一点儿时间来同步区块数据，生成钱包地址并不需要完成同步，因此我们点击“隐藏”，让同步过程在后台进行，就可以进入主界面了。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058575899.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058575899.png" alt="" loading="lazy"><br>
 ▼点击主界面上的“接收”。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058723447.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058723447.png" alt="" loading="lazy"><br>
 ▼点击“请求付款”。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058728485.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058728485.png" alt="" loading="lazy"><br>
 ▼弹出的界面中，红框里的就是你的钱包地址了，你将用这个地址接收挖矿收益。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058734218.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058734218.png" alt="" loading="lazy"><br>
 <br/></p>
 <hr>
 <h2 id="挖矿工具">挖矿工具</h2>
 <p>▼进入cpuminer-gr官方下载页面，这里还是以Windows为例。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058749536.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058749536.png" alt="" loading="lazy"><br>
 ▼你很可能会看到类似的提示。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058754444.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058754444.png" alt="" loading="lazy"><br>
 挖矿可以带来高额收益，大量电脑遭到黑客入侵，被用于挖矿，因此很多杀毒软件和浏览器都把挖矿工具视为病毒，<br>
 你说它是病毒吧，确实很多人在不知情的情况下“被挖矿”，属于恶意行为。<br>
 如果你的目的就是挖矿，那它显然是一个正常的软件。<br>
 对此类提示有洁癖的朋友，可以点击“从列表中移除”，然后就可以放弃了。<br>
 是否继续，请自行作出决定。<br>
 ▼解压后，可以得到类似的文件。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058759858.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058759858.png" alt="" loading="lazy"><br>
 ▼在config.json上点击右键，选择“打开方式”。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058764737.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058764737.png" alt="" loading="lazy"><br>
 ▼使用记事本打开这个配置文件。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058769094.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058769094.png" alt="" loading="lazy"><br>
 使用如下内容替换：<br>
 { &quot;url&quot;: &quot;stratum+tcps://eu.flockpool.com:5555&quot;, &quot;user&quot;: &quot;钱包地址.矿工名&quot;, &quot;pass&quot;: &quot;xxxxxx&quot;, &quot;algo&quot;: &quot;gr&quot;, &quot;no-tune&quot;: true }<br>
 注意，要把“钱包地址”四个字换成你自己的钱包地址，“矿工名”三个字可以随便起，用来区分不同的机器，如果你有多个机器，要保证不能重名。<br>
 ▼这个是我修改好的例子，供参考。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058775511.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058775511.png" alt="" loading="lazy"><br>
 ▼保存后，双击“cpuminer”即可开始挖矿。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058780122.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058780122.png" alt="" loading="lazy"><br>
 ▼如果你看到“Accepted”字样，恭喜你，成功了。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058785989.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058785989.png" alt="" loading="lazy"><br>
 <br/></p>
 <hr>
 <h2 id="查看收益">查看收益</h2>
 <p>▼打开矿池，输入你的钱包地址，并回车。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058791804.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058791804.png" alt="" loading="lazy"><br>
 ▼然后就可以看到你的收益和实际算力啦。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058884710.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058884710.png" alt="" loading="lazy"><br>
 ▼矿池每隔一段时间，就会支付一次收益，当你的钱包软件完成同步后，就可以看到啦。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058894215.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058894215.png" alt="" loading="lazy"><br>
 以我测试用的AMD Ryzen9 5950X CPU为例，算力大于4000H/s，本文写作时，每天能挖110个RTM，币价0.0761刀，每日收益在40元左右。（DIY玩家瑟瑟发抖中，CPU也要涨价了）</p>
 <hr>
 <h2 id="李明阳有话说">李明阳有话说</h2>
@@ -121,7 +121,7 @@ PoW算法：GhostRider<br>
 <hr>
 <h2 id="下期预告">下期预告</h2>
 <p>细心的朋友可能会发现，前面提到的配置文件中有“tune”字样，也就是调优的意思。<br>
-<img src="https://yrjyrj123.github.io/post-images/1637058907691.png" alt="" loading="lazy"><br>
+<img src="https://yrjyrj123.github.io/blog/post-images/1637058907691.png" alt="" loading="lazy"><br>
 所谓调优，就是根据算法和不同型号设备的特点，对性能加以优化，从而获得更多收益。<br>
 不过，为了简化操作，我们暂时使用的配置是“no-tune”，也就是暂不调优，用默认参数运行。<br>
 我会在未来的文章中详细介绍下Raptoreum使用的GhostRider算法的原理，以及调优技巧，欢迎关注。<br>
@@ -136,8 +136,8 @@ PoW算法：GhostRider<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://yrjyrj123.github.io/post/hello-gridea/</id>
-        <link href="https://yrjyrj123.github.io/post/hello-gridea/">
+        <id>https://yrjyrj123.github.io/blog/post/hello-gridea/</id>
+        <link href="https://yrjyrj123.github.io/blog/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
@@ -166,7 +166,7 @@ PoW算法：GhostRider<br>
 <p>未来，它一定会成为你离不开的伙伴</p>
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~<br>
-<img src="https://yrjyrj123.github.io/post-images/1636958596399.jpg" alt="" loading="lazy"></p>
+<img src="https://yrjyrj123.github.io/blog/post-images/1636958596399.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
